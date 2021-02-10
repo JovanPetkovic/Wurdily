@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wurdily Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+	<div class="navbar">
+    	<a href="./index.html" class="logo"></a>
+    	<div class="rightside">
+            <button class="ham"></button>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="template.html">Templates</a>
+                <a href="team.html">Our Team</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <video playsinline autoplay muted loop id="myVideo">
+        <source src="./assets/video.mp4" type="video/mp4">
+    </video>
+    <div class='calltoaction'>
+		<div class="cta-text">
+			<h1>Talk to a <span style="color:  #6161E9;">specialist</span></h1>
+			<p>
+				Every big change begins with a small step. This is also the beggining of something great, share your vision with us to get the best advice from start home specialists.
+			</p>
+            <div id="map"></div>
+            <div class="workHours"><p>Work Hours: <span class="close-open">Closed</span></p><button class="hoursShow"></button></div>
+            <div class="hoursTable">
+                <div><p>Mon 9AM - 5PM</p>
+                <p>Tue  9AM - 5PM</p>
+                <p>Wed 9AM - 5PM</p>
+                <p>Thu  9AM - 5PM</p>
+                </div>
+                <div><p>Fri 9AM - 5PM</p>
+                <p>Sat Closed</p>
+                <p>Sun Closed</p>
+                </div>
+            </div>
+		</div>
+		<form>
+			<input type="text" name="name" placeholder="Name">
+			<input type="email" name="email" placeholder="Email">
+			<input type="text" name="subject" placeholder="Subject">
+			<textarea name="message" placeholder="Message">
+			</textarea>
+			<button class="btn">Submit</button>
+		</form>
+	</div>
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnseNbYcVMHac2JSueDnBGmSmVzzva0qA&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+</body>
+</html>
