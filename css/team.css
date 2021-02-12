@@ -100,14 +100,14 @@ body a {
   height: 80vh;
   display:flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .person img{
-  width: 70%;
-  height: auto;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 
