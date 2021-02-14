@@ -1,5 +1,7 @@
 # Wurdily
 
+Clanovi Tima: Jovan Petkovic, Djordje Ratkovic, Djordje Pajic
+
 Github Pages Link: https://jovanpetkovic.github.io/Wurdily/
 
 Ovo je sajt Web Development kompanije Wurdily. 
